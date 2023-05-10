@@ -120,7 +120,7 @@ type GetStopIndexForStartIndex = (
 type InitInstanceProps = (props: Props<any>, instance: any) => any;
 type ValidateProps = (props: Props<any>) => void;
 
-const IS_SCROLLING_DEBOUNCE_INTERVAL = 150;
+const IS_SCROLLING_DEBOUNCE_INTERVAL = 0;
 
 const defaultItemKey = (index: number, data: any) => index;
 
